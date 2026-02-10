@@ -440,3 +440,4 @@ Pull Request를 제출할 때는 다음 정보를 포함해주세요:
 
 - 폰트: [마루부리](https://hangeul.naver.com/font) 폰트는 Naver에서 제공하는 무료 폰트입니다. [PlayfairDisplay](https://fonts.google.com/specimen/Playfair+Display) 폰트는 오픈 폰트 라이센스를 따릅니다.
 - 이미지: 예시 이미지는 Unsplash에서 가져왔거나 직접 촬영한 사진들로 이루어져 있습니다. 테스트용으로만 사용하세요. 실제 사용 시 저작권에 유의하세요.
+# wedding-invating
