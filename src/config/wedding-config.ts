@@ -13,9 +13,9 @@ interface GalleryConfig {
 export const weddingConfig = {
   // 메타 정보
   meta: {
-    title: "신랑 ❤️ 신부의 결혼식에 초대합니다",
+    title: "이준수 ❤️ 장윤하의 결혼식에 초대합니다",
     description: "결혼식 초대장",
-    ogImage: "/images/ha0h-1fsi-bqt3.jpg",
+    ogImage: "/images/main-page.jpg",
     noIndex: true,
     _jwk_watermark_id: uniqueIdentifier,
   },
@@ -23,9 +23,9 @@ export const weddingConfig = {
   // 메인 화면
   main: {
     title: "Wedding Invitation",
-    image: "/images/ha0h-1fsi-bqt3.jpg",
-    date: "2026년 5월 16일 토요일 12시 30분",
-    venue: "웨딩홀 이름"
+    image: "/images/main-page.jpg",
+    date: "2026년 4월 11일 토요일 2시 40분",
+    venue: "더컨벤션 잠실"
   },
 
   // 소개글
@@ -37,49 +37,33 @@ export const weddingConfig = {
   // 결혼식 일정
   date: {
     year: 2026,
-    month: 5,
-    day: 16,
-    hour: 12,
-    minute: 30,
-    displayDate: "2026.05.16 SAT PM 12:30",
+    month: 4,
+    day: 11,
+    hour: 14,
+    minute: 40,
+    displayDate: "2026.04.11 SAT PM 2:40",
   },
 
   // 장소 정보
   venue: {
-    name: "웨딩홀 이름",
-    address: "서울특별시 강남구 테헤란로 123\n웨딩홀 이름",
-    tel: "02-1234-5678",
-    naverMapId: "웨딩홀 이름", // 네이버 지도 검색용 장소명
+    name: "더컨벤션 잠실",
+    address: "서울특별시 송파구 올림픽로 319 (신천동 11-7)\n비스타홀",
+    tel: "02-418-5000",
+    naverMapId: "더컨벤션 잠실", // 네이버 지도 검색용 장소명
     coordinates: {
-      latitude: 37.5665,
-      longitude: 126.9780,
+      latitude: 37.515651,
+      longitude: 127.105465,
     },
-    placeId: "123456789", // 네이버 지도 장소 ID
-    mapZoom: "17", // 지도 줌 레벨
+    placeId: "13355247", // 네이버 지도 장소 ID
+    mapZoom: "15", // 지도 줌 레벨
     mapNaverCoordinates: "14141300,4507203,15,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
     transportation: {
-      subway: "지하철역 1번 출구에서 도보 5분",
-      bus: "간선\n 101, 102, 103\n지선\n 1234, 5678",
+      subway: "2호선 잠실역 8번출구 / 8호선 잠실역 9번 출구",
+      bus: "간선\n 302, 320, 341, 836, 3003\n지선\n 2215, 2412, 2415, 3215, 3216, 3313, 3315, 3411, 3412, 3413, 3414, 4312, 4318, 4319",
     },
-    parking: "건물 지하 주차장 이용 가능 (2시간 무료)",
+    parking: "건물 주차장 이용 가능 (2시간 무료, 만차 시 주변 주차장 안내)",
     // 신랑측 배차 안내
-    groomShuttle: {
-      location: "신랑측 배차 출발지",
-      departureTime: "오전 10시 30분 출발",
-      contact: {
-        name: "담당자명",
-        tel: "010-1234-5678"
-      }
-    },
     // 신부측 배차 안내
-    brideShuttle: {
-      location: "신부측 배차 출발지",
-      departureTime: "오전 11시 출발",
-      contact: {
-        name: "담당자명",
-        tel: "010-9876-5432"
-      }
-    }
   },
 
   // 갤러리
@@ -96,47 +80,53 @@ export const weddingConfig = {
       "/images/gallery/image7.jpg",
       "/images/gallery/image8.jpg",
       "/images/gallery/image9.jpg",
+      "/images/gallery/image10.jpg",
+      "/images/gallery/image11.jpg",
+      "/images/gallery/image12.jpg",
+      "/images/gallery/image13.jpg",
+      "/images/gallery/image14.jpg",
+      "/images/gallery/image15.jpg",
     ],
   } as GalleryConfig,
 
   // 초대의 말씀
   invitation: {
-    message: "한 줄기 별빛이 되어 만난 인연\n평생을 함께 걸어가려 합니다.\n\n소중한 분들의 축복 속에\n저희 두 사람이 첫 걸음을 내딛습니다.\n\n귀한 시간 내어 함께해 주신다면\n그 어떤 축복보다 값진 선물이 될 것입니다.",
+    message: "소중한 분들의 축복 속에\n저희 두 사람이 첫 걸음을 내딛습니다.\n\n귀한 시간 내어 함께해 주신다면\n그 어떤 축복보다 값진 선물이 될 것입니다.",
     groom: {
-      name: "신랑이름",
+      name: "이준수",
       label: "아들",
-      father: "신랑아버지",
-      mother: "신랑어머니",
+      father: "이승곤",
+      mother: "김민희",
     },
     bride: {
-      name: "신부이름",
+      name: "장윤하",
       label: "딸",
-      father: "신부아버지",
-      mother: "신부어머니",
+      father: "장희영",
+      mother: "김혜영",
     },
   },
 
   // 계좌번호
   account: {
     groom: {
-      bank: "은행명",
-      number: "123-456-789012",
-      holder: "신랑이름",
+      bank: "국민",
+      number: "937702-00-083622",
+      holder: "이준수",
     },
     bride: {
-      bank: "은행명",
-      number: "987-654-321098",
-      holder: "신부이름",
+      bank: "신한",
+      number: "110-423-671166",
+      holder: "장윤하",
     },
     groomFather: {
-      bank: "은행명",
-      number: "111-222-333444",
-      holder: "신랑아버지",
+      bank: "신한",
+      number: "110-005-335118",
+      holder: "이승곤",
     },
     groomMother: {
-      bank: "은행명",
-      number: "555-666-777888",
-      holder: "신랑어머니",
+      bank: "농협",
+      number: "013-12-121328",
+      holder: "김민희",
     },
     brideFather: {
       bank: "은행명",
