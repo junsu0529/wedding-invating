@@ -183,6 +183,10 @@ const AccountSection = ({ bgColor = 'white' }: AccountSectionProps) => {
         </AccountCard>
       </AccountCards>
       
+      <br></br>
+      <p>화환은 정중하게 사양합니다.</p>
+  
+
       {/* 청첩장 공유하기 버튼 */}
       <ShareContainer>
         <ShareButton onClick={copyWebsiteUrl}>
