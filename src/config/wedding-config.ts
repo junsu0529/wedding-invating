@@ -47,7 +47,7 @@ export const weddingConfig = {
   // 장소 정보
   venue: {
     name: "더컨벤션 잠실",
-    address: "서울특별시 송파구 올림픽로 319 (신천동 11-7)\n비스타홀",
+    address: "서울특별시 송파구 올림픽로 319 (신천동 11-7)\n3층 비스타홀",
     tel: "02-418-5000",
     naverMapId: "더컨벤션 잠실", // 네이버 지도 검색용 장소명
     coordinates: {
@@ -81,11 +81,17 @@ export const weddingConfig = {
       "/images/gallery/image8.jpg",
       "/images/gallery/image9.jpg",
       "/images/gallery/image10.jpg",
+      "/images/gallery/image16.jpg",
+      "/images/gallery/image17.jpg",
+      "/images/gallery/image18.jpg",
+      "/images/gallery/image19.jpg",
+      "/images/gallery/image20.jpg",
       "/images/gallery/image11.jpg",
       "/images/gallery/image12.jpg",
       "/images/gallery/image13.jpg",
       "/images/gallery/image14.jpg",
       "/images/gallery/image15.jpg",
+      "/images/gallery/image21.jpg",
     ],
   } as GalleryConfig,
 
@@ -129,9 +135,9 @@ export const weddingConfig = {
       holder: "김민희",
     },
     brideFather: {
-      bank: "은행명",
-      number: "999-000-111222",
-      holder: "신부아버지",
+      bank: "우리",
+      number: "355-07-027045",
+      holder: "장희영",
     },
     brideMother: {
       bank: "은행명",

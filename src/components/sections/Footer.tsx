@@ -18,7 +18,7 @@ const Footer = () => {
       {/* WeddingInvitation-Footer-NonCommercial DO NOT CHANGE*/}
       <FooterContent>
         <Copyright>© {currentYear} Jawon Koo</Copyright>
-        <Credits>Made with ❤️</Credits>
+        <Credits>Made with 🤵</Credits>
         <GithubLink
           href="https://github.com/jw-koo/wedding-invitation"
           target="_blank"
